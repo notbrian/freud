@@ -1,8 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
+import React from 'react'
+import { render } from 'react-dom'
+import App from './components/App'
+import { HashRouter, Route } from 'react-router-dom'
 
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+function app () {
+  return (
+    <HashRouter>
+      <div>
+        <Route component={App} />
+      </div>
+    </HashRouter>
+  )
+}
+
+render(app(), root)
