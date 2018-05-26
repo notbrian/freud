@@ -3,11 +3,11 @@ const app = express()
 const VoiceResponse = require('twilio').twiml.VoiceResponse;
 
 const response = new VoiceResponse();
-response.say('Hello World');
-response.play('https://api.twilio.com/Cowbell.mp3');
+response.say('kill yourself');
+response.play('https://raw.githubusercontent.com/notbrian/freud/feature/twilio/audio/scoopdiwoop.mp3');
 
 
-app.get('/response/kys', (req, res) => {
+app.post('/response/poop', (req, res) => {
     res.send(response.toString())  
 })
 
