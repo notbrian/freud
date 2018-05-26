@@ -4,10 +4,10 @@ const VoiceResponse = require('twilio').twiml.VoiceResponse;
 
 const response = new VoiceResponse();
 response.say('kill yourself');
-response.play('https://api.twilio.com/Cowbell.mp3');
+response.play('https://raw.githubusercontent.com/notbrian/freud/feature/twilio/audio/scoopdiwoop.mp3');
 
 
-app.post('/response/kys', (req, res) => {
+app.post('/response/poop', (req, res) => {
     res.send(response.toString())  
 })
 
