@@ -1,6 +1,6 @@
 # Freud
 
-![Promo](https://i.imgur.com/nnYN41U.jpg)
+![Promo](https://i.imgur.com/bj5Tyja.jpg)
 
 A therapist that will call you every day, ask a series of questions, and evaluate your overall feeling on that particular day.
 
