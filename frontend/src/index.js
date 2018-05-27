@@ -1,14 +1,12 @@
 import React from 'react'
 import { render } from 'react-dom'
-import App from './components/App'
-import { HashRouter, Route } from 'react-router-dom'
+import { HashRouter } from 'react-router-dom'
+import routes from './routes'
 
 function app () {
   return (
     <HashRouter>
-      <div>
-        <Route component={App} />
-      </div>
+      { routes() }
     </HashRouter>
   )
 }
