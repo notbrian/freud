@@ -1,0 +1,15 @@
+[
+    {time: Date.getMilliseconds(),
+     text: 'my day was bad',
+     entities: [{
+         name: food,
+         score: 0.9
+     },
+     {
+        name: everybody,
+        score: 0.5
+    }
+     ],
+     sentiment: '0.9'
+    }
+]

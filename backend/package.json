@@ -9,7 +9,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@google-cloud/language": "^1.2.0",
+    "body-parser": "^1.18.3",
+    "dotenv": "^5.0.1",
     "express": "^4.16.3",
+    "firebase-admin": "^5.12.1",
     "twilio": "^3.17.1"
   }
 }

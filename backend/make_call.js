@@ -7,8 +7,8 @@ const client = require('twilio')(accountSid, authToken);
 
 client.calls
       .create({
-         url: 'http://0b10d83e.ngrok.io/response/kys',
-         to: '+14169049147',
+         url: 'http://2716beff.ngrok.io/recordDay',
+         to: '+16479977194‬',
          from: '+16479311161'
        })
       .then(call => console.log(call.sid))
